@@ -12,4 +12,5 @@ while True:
 	# 或者以上四行簡寫成 products.append([name,price])
 print(products)
 
-products[0][0]
+for product in products:
+	print(product[0],'的價格是',product[1])
